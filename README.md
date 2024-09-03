@@ -1,4 +1,4 @@
-# Template: Python - Minimal
+# Template: Python - Automation to Order Robots
 
 This template leverages the robot order automation at [https://robotsparebinindustries.com/#/robot-order](https://robotsparebinindustries.com/#/robot-order).
 
