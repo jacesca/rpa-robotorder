@@ -1,10 +1,17 @@
 # Template: Python - Minimal
 
-This template leverages the new [Python framework](https://github.com/robocorp/robocorp), the [libraries](https://github.com/robocorp/robocorp/blob/master/docs/README.md#python-libraries) from to same project as well.
+This template leverages the robot order automation at [https://robotsparebinindustries.com/#/robot-order](https://robotsparebinindustries.com/#/robot-order).
 
-The template provides you with the basic structure of a Python project: logging out of the box and controlling your tasks without fiddling with the base Python stuff. The environment contains the most used libraries, so you do not have to start thinking about those right away. 
+**Target tasks:**
 
-👉 Other templates are available as well via our tooling and on our [Portal](https://robocorp.com/portal/tag/template)
+- Only the robot is allowed to get the orders file. You may not save the file manually on your computer.
+- The robot should save each order HTML receipt as a PDF file.
+- The robot should save a screenshot of each of the ordered robots.
+- The robot should embed the screenshot of the robot to the PDF receipt.
+- The robot should create a ZIP archive of the PDF receipts (one zip archive that contains all the PDF files). Store the archive in the output directory.
+- The robot should complete all the orders even when there are technical failures with the robot order website.
+- The robot should be available in public GitHub repository.
+It should be possible to get the robot from the public GitHub repository and run it without manual setup.
 
 ## Running
 
